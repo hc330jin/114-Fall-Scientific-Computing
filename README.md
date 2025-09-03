@@ -1,2 +1,3 @@
 # 114-Fall-Scientific-Computing
-To upload weekly assignment.
+## Purpose
+To upload weekly hand-writing and coding assignment.
