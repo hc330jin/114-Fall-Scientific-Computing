@@ -1,6 +1,10 @@
 # Assignment 1
 ## Question 1
-Show that $\displaystyle\sum_{i=0}^n l_i(x)=1$, where $l_i(x)=\omega_{n+1}(x)\dfrac{w_i}{x-x_i}$
+Show that $\sum_{i=0}^n l_i(x)=1$, where $l_i(x)=\prod_{j=0, j\ne i}^n\dfrac{x-x_j}{x_i-x_j}$
+
+### Solution
+Consider that we want to interpolate the constant function $f(x)=1$, then we have
+$$1=\Pi_n f(x)=\sum_{i=0}^n 1\cdot l_i(x)$$
 
 ## Question 2
 Show that $\omega_{n+1}^\prime(x_i)=\dfrac{1}{w_i}$
